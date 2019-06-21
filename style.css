@@ -15,36 +15,6 @@ width: 100%;
 
 }
 
-/* vicki Animation*/
-/*vicki {
-  width: 256px;
-  height: 256px;
-  margin: 15% 1;
-  transform: scalex(1);
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2253307/viki.png) left center;
-  
-  animation: play .8s steps(6) infinite;
-}
-
-@keyframes play {
-    100% { background-position: -1536px; }
-} */
-
-/* Zombie */
-.zombie {
-  width: 200px;
-  height: 312px;
-  margin: 5% auto;
-  transform: scalex(-1);
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2253307/walkingdead.png) left center;
-  
-  animation: play 1.8s steps(10) infinite;
-}
-
-@keyframes play {
-    100% { background-position: -2000px; }
-}
-
 p {
   font-size: 30px
 }
@@ -57,7 +27,7 @@ justify-content: space-between;
 
 header {
 
-background-image: url("image/zombie.jpg");
+background-image: url("images/zombie.jpg");
 width: 100%;
 height: 250px;
 top: 0px;
@@ -216,30 +186,61 @@ box-shadow: 0 0 2px white,
 #Armes{
 
   display : list-item;
-  list-style-image: url(image/arme-2.png);
+  list-style-image: url(images/arme-2.png);
   font-size: 25px;
 }
 
 #nourriture {
 
 display: list-item;
-list-style-image: url(image/burger-2.png);
+list-style-image: url(images/burger-2.png);
  font-size: 25px;
 }
 
 #trousse {
 
 display: list-item;
-list-style-image: url(image/trousse-2.png);
+list-style-image: url(images/trousse-2.png);
  font-size: 25px;
 }
 
 #Abri {
 
 display: list-item;
-list-style-image: url(image/abris-2.png);
+list-style-image: url(images/abris-2.png);
  font-size: 25px;
 }
+
+/* vicki Animation*/
+/*vicki {
+  width: 256px;
+  height: 256px;
+  margin: 15% 1;
+  transform: scalex(1);
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2253307/viki.png) left center;
+  
+  animation: play .8s steps(6) infinite;
+}
+
+@keyframes play {
+    100% { background-position: -1536px; }
+} */
+
+/* Zombie */
+.zombie {
+  width: 200px;
+  height: 312px;
+  margin: 5% auto;
+  transform: scalex(-1);
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2253307/walkingdead.png) left center;
+  
+  animation: play 1.8s steps(10) infinite;
+}
+
+@keyframes play {
+    100% { background-position: -2000px; }
+}
+
 
 .apocalypse {
   display: flex;
